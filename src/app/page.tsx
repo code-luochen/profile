@@ -1,3 +1,9 @@
+import App from './App'
+
 export default function Home() {
-  return <main>home</main>
+  return (
+    <main>
+      <App />
+    </main>
+  )
 }
