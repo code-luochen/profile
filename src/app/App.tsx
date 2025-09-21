@@ -156,7 +156,7 @@ const App = () => {
             </div>
             <Spin spinning={loading}>
               <Row gutter={[24, 24]} className="repositories-grid">
-                {data?.slice(0, 4)?.map((repo) => (
+                {data?.slice(0, 4)?.map((repo: any) => (
                   <Col
                     xs={24}
                     md={12}
